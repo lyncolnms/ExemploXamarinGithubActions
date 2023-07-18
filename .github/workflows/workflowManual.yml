@@ -8,8 +8,7 @@ jobs:
     - name: setup-xamarin
       uses: maxim-lobanov/setup-xamarin@v1.1
       with:
-        mono-version: 6.6 
-        xamarin-ios-version: 13 
-        xamarin-mac-version: latest 
-        xamarin-android-version: 10.1.3.7 
-        xcode-version: 11.5 
+        mono-version: latest
+        xamarin-ios-version: latest
+        xamarin-android-version: latest
+        xcode-version: latest
